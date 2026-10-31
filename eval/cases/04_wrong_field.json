@@ -1,0 +1,24 @@
+{
+  "id": "04_wrong_field",
+  "description": "Different field: mechanical engineering resume vs frontend job",
+  "resume": "Arjun Rao (fictional). B.Tech Mechanical Engineering.\nSkills: SolidWorks, AutoCAD, ANSYS.\nProjects:\n- Designed a gearbox for a go-kart in SolidWorks and tested it in ANSYS.\nAchievements: 2nd place, inter-college design contest.",
+  "jd": "Frontend Developer Intern. Required: JavaScript, React, HTML, CSS, and a portfolio of web projects.",
+  "expected": {
+    "score_range": [
+      0,
+      20
+    ],
+    "expected_missing": [
+      "JavaScript",
+      "React",
+      "HTML",
+      "CSS"
+    ],
+    "must_not_claim": [
+      "SolidWorks",
+      "AutoCAD",
+      "ANSYS"
+    ],
+    "notes": "Some problem-solving credit for the design contest is acceptable."
+  }
+}

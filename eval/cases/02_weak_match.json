@@ -1,0 +1,24 @@
+{
+  "id": "02_weak_match",
+  "description": "Weak match: web basics vs ML internship",
+  "resume": "Sneha Iyer (fictional). B.Tech IT, 2nd year.\nSkills: HTML, CSS, MS Excel.\nProjects:\n- Personal portfolio website made with HTML and CSS.",
+  "jd": "Machine Learning Intern. Required: Python, PyTorch or TensorFlow, statistics, and at least one machine learning project.",
+  "expected": {
+    "score_range": [
+      0,
+      25
+    ],
+    "expected_missing": [
+      "Python",
+      "PyTorch",
+      "statistics",
+      "machine learning"
+    ],
+    "must_not_claim": [
+      "HTML",
+      "CSS",
+      "Excel"
+    ],
+    "notes": "Nothing on the resume matches."
+  }
+}

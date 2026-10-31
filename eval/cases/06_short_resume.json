@@ -1,0 +1,20 @@
+{
+  "id": "06_short_resume",
+  "description": "Very short resume",
+  "resume": "Riya Verma (fictional). B.Tech CSE, 2nd year. Skills: Java.",
+  "jd": "Java Backend Intern. Required: Java, Spring Boot, SQL, Git, and at least one backend project.",
+  "expected": {
+    "score_range": [
+      5,
+      35
+    ],
+    "expected_missing": [
+      "Spring Boot",
+      "SQL",
+      "Git",
+      "project"
+    ],
+    "must_not_claim": [],
+    "notes": "Java is only listed, so it should be partial, not fully matched."
+  }
+}

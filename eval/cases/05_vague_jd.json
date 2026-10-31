@@ -1,0 +1,19 @@
+{
+  "id": "05_vague_jd",
+  "description": "Vague job description with no technical requirements",
+  "resume": "Meera Joshi (fictional). B.Tech CSE, 3rd year.\nSkills: Java, Python, SQL.\nProjects:\n- Hostel complaint tracker built with Java and MySQL.\nExperience: Class representative; organised a coding workshop for 60 students.",
+  "jd": "Graduate Trainee. We want good communication, team players, eagerness to learn and a tech-savvy attitude.",
+  "expected": {
+    "score_range": [
+      30,
+      85
+    ],
+    "expected_missing": [],
+    "must_not_claim": [
+      "Java",
+      "Python",
+      "SQL"
+    ],
+    "notes": "The tool should say the JD is vague rather than invent technical requirements."
+  }
+}

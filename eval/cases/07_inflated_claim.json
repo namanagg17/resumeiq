@@ -1,0 +1,18 @@
+{
+  "id": "07_inflated_claim",
+  "description": "Big claim with no evidence",
+  "resume": "Dev Malhotra (fictional). B.Tech CSE, 3rd year.\nSkills: Expert in Kubernetes and cloud architecture, Linux, Python.\nProjects:\n- To-do list app in Python with a command-line interface.",
+  "jd": "DevOps Intern. Required: Docker, Kubernetes, Linux, CI/CD pipelines, and scripting in Python or Bash.",
+  "expected": {
+    "score_range": [
+      20,
+      55
+    ],
+    "expected_missing": [
+      "Docker",
+      "CI/CD"
+    ],
+    "must_not_claim": [],
+    "notes": "Human check: Kubernetes should be weak/partial because no project shows it."
+  }
+}

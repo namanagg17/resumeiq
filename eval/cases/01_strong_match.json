@@ -1,0 +1,17 @@
+{
+  "id": "01_strong_match",
+  "description": "Strong match: backend intern with relevant projects",
+  "resume": "Karan Mehta (fictional). B.Tech CSE, 3rd year.\nSkills: Python, Django, PostgreSQL, REST APIs, Git, data structures.\nProjects:\n- Campus Events Portal: built a Django web app with a PostgreSQL database and REST APIs used by 3 student clubs.\n- Expense Tracker API: REST API in Python with user login and unit tests.\nAchievements: Solved 300+ problems on LeetCode; finalist in college hackathon 2025.",
+  "jd": "Backend Developer Intern. Required: Python, Django or Flask, SQL databases, REST APIs, Git. Good to have: Docker. Strong problem-solving skills.",
+  "expected": {
+    "score_range": [
+      75,
+      95
+    ],
+    "expected_missing": [
+      "Docker"
+    ],
+    "must_not_claim": [],
+    "notes": "Docker is nice-to-have and missing; should not pull the score down much."
+  }
+}

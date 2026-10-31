@@ -1,0 +1,20 @@
+{
+  "id": "03_cpp_trap",
+  "description": "Milestone 1 example: C++ is on the resume but not in the JD",
+  "resume": "Alex Sharma (fictional). Computer science student.\nSkills: Python, C++, SQL, basic web development.\nProjects: Two academic projects using Python and SQL.",
+  "jd": "Entry-level Software Developer. Required: Python, SQL, data structures, problem-solving skills, and experience developing web applications.",
+  "expected": {
+    "score_range": [
+      40,
+      70
+    ],
+    "expected_missing": [
+      "data structures",
+      "web"
+    ],
+    "must_not_claim": [
+      "C++"
+    ],
+    "notes": "Baseline V0 listed C++ as a matching skill in Milestone 1."
+  }
+}
